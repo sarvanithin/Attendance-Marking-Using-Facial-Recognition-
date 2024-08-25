@@ -1,24 +1,16 @@
-Facial Recognition and Data Logging System
-Welcome to the Facial Recognition and Data Logging System! This advanced solution is designed to detect faces in video feeds, verify them against a predefined dataset, and update a CSV file with the relevant information. Follow these easy steps to use the system:
+## Facial Recognition and Data Logging System
+Welcome to the Face Detection and Data Addition System! This robust solution is designed for detecting faces in video, verifying them against a predefined dataset, and updating a CSV file with relevant data. To seamlessly use this system, follow these straightforward steps:
 
-Prerequisites
-First, install the required libraries by running:
+## Prerequisites
+Install the necessary libraries by executing:
 
 pip install -r requirements.txt
+
 Image Naming Convention
-Make sure your image files follow this naming format: "Name Number.jpg" (e.g., "Shukur 1.jpg").
+Ensure your image files adhere to this naming convention: "Name Number.jpg" (e.g., "Shukur 1.jpg").
 
-Training the Face Detection Model
-Train the face detection model by executing:
-
-
+## Train the face detection model by running:
 python train_model.py
-Then, run main_work.py to identify faces, compare them with the dataset, and add the data to the CSV file:
-
-
+Execute main_work.py to identify faces, cross-reference the dataset, and append data to the CSV file:
 python main_work.py
-The system will automatically update the CSV file with relevant information whenever it detects a match. Enjoy the benefits of effective facial recognition and efficient data management!
-
-
-
-
+The system automatically updates the CSV file with relevant data upon finding a match. Experience the power of facial recognition and streamlined data management in action!
